@@ -1,0 +1,14 @@
+{
+  "name": "web3rsvp",
+  "version": "1.0.0",
+  "description": "fullstack dapp that enables you to rsvp for events and deposit some ether ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.11.1"
+  }
+}
