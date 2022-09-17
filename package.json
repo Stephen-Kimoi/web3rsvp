@@ -4,11 +4,17 @@
   "description": "fullstack dapp that enables you to rsvp for events and deposit some ether ",
   "main": "index.js",
   "scripts": {
+    "script": "node scripts/run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "hardhat": "^2.11.1"
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2"
   }
 }
