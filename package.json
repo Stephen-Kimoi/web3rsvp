@@ -4,6 +4,7 @@
   "description": "fullstack dapp that enables you to rsvp for events and deposit some ether ",
   "main": "index.js",
   "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai", 
     "script": "node scripts/run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
     "chai": "^4.3.6",
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
   }
 }
