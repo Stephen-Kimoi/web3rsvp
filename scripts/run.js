@@ -11,7 +11,7 @@ const main = async () => {
     const [deployer, address1, address2] = await hre.ethers.getSigners(); 
 
     // Define the event data before we create a new event
-    let deposit = hre.ethers.utils.parseEther("1");
+    let deposit = hre.ethers.utils.parseEther("0.1");
     let maxCapacity = 5;
     let timestamp = 1718926200;
     let eventDataCID = "bafybeibhwfzx6oo5rymsxmkdxpmkfwyvbjrrwcl7cekmbzlupmp5ypkyfi";
